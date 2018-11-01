@@ -106,6 +106,10 @@ button::after {
 	transition: all 0.7s;
 }
 
+.container a {
+  text-decoration: none;
+}
+
 button {
   background: none;
   border: 3px solid #fff;
@@ -135,7 +139,9 @@ button:hover {
   border-color: #ccad00;
 }
 
+
 }
+
 
 /* TABLET STYLES */
 /* applies to screens wider than 499px */
@@ -144,12 +150,6 @@ button:hover {
 .btn-2{
   display: inline-block;
 }
-
-.container {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 
 }
 

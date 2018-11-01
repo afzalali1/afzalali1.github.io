@@ -1,0 +1,32 @@
+h1 {
+  color: white;
+  font-family: "SF-Pro-Regular";
+  text-align: center;
+}
+
+h2{
+  color: white;
+  font-family: "SF-Pro-medium";
+  text-align: center;
+
+}
+
+h3{
+  color: white;
+  font-family: "SF-Pro-light";
+  text-align: center;
+
+}
+
+ul {
+  color: white;
+  font-family: "SF-Pro-light";
+  padding-left: 20px;
+}
+
+.job1 {
+  background-image: url("../images/workImage1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}

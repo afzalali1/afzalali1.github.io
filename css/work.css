@@ -2,8 +2,6 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 
-
-
 h1 {
   color: white;
   font-family: "SF-Pro-Regular";
@@ -14,6 +12,8 @@ h2{
   color: white;
   font-family: "SF-Pro-medium";
   text-align: center;
+  text-decoration: overline underline;
+  color: #00FFFF;
 
 }
 
@@ -34,18 +34,27 @@ ul {
   background-image: url("../images/catGirl.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .job2 {
   background-image: url("../images/lms.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .job3 {
   background-image: url("../images/breeze.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

@@ -9,6 +9,8 @@ h2{
   color: white;
   font-family: "SF-Pro-medium";
   text-align: center;
+  text-decoration: overline underline;
+  color: #00FFFF;
 
 }
 
@@ -23,4 +25,31 @@ ul {
   color: white;
   font-family: "SF-Pro-light";
   padding-left: 20px;
+}
+
+.dmu {
+  background-image: url("../images/dmu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bc1 {
+  background-image: url("../images/bc1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bc2 {
+  background-image: url("../images/bc2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

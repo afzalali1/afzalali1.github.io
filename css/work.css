@@ -1,3 +1,9 @@
+/* MOBILE AND GLOBAL STYLES */
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
+
+
+
 h1 {
   color: white;
   font-family: "SF-Pro-Regular";
@@ -34,4 +40,27 @@ ul {
   background-image: url("../images/lms.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.job3 {
+  background-image: url("../images/breeze.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* TABLET STYLES */
+/* applies to screens wider than 499px */
+@media screen and (min-width: 500px) {
+
+
+
+}
+
+/* DESKTOP STYLES */
+/* applies to screens wider than 999px */
+@media screen and (min-width: 1000px) {
+
+
+
 }

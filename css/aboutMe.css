@@ -1,3 +1,6 @@
+/* MOBILE AND GLOBAL STYLES */
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
 h1 {
   color: white;
   font-family: "SF-Pro-Regular";
@@ -18,12 +21,27 @@ h3{
 
 }
 
-ul {
+p {
   color: white;
   font-family: "SF-Pro-light";
   padding-left: 20px;
 }
 
-p {
-  color: white;
+img {
+  height: 250px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* TABLET STYLES */
+/* applies to screens wider than 499px */
+@media screen and (min-width: 500px) {
+}
+
+/* DESKTOP STYLES */
+/* applies to screens wider than 999px */
+@media screen and (min-width: 1000px) {
+
 }

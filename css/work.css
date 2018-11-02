@@ -20,13 +20,18 @@ h3{
 
 ul {
   color: white;
-  font-family: "SF-Pro-light";
+  font-family: "SF-Pro-medium";
   padding-left: 20px;
 }
 
 .job1 {
-  background-image: url("../images/workImage1.jpg");
+  background-image: url("../images/catGirl.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  
+}
+
+.job2 {
+  background-image: url("../images/lms.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

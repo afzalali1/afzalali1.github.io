@@ -35,6 +35,10 @@ img {
   margin-right: auto;
 }
 
+img :hover {
+  
+}
+
 /* TABLET STYLES */
 /* applies to screens wider than 499px */
 @media screen and (min-width: 500px) {
@@ -43,5 +47,6 @@ img {
 /* DESKTOP STYLES */
 /* applies to screens wider than 999px */
 @media screen and (min-width: 1000px) {
+
 
 }

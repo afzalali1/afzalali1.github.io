@@ -27,26 +27,43 @@ p {
   padding-left: 20px;
 }
 
-img {
+.image {
+  background-image: url("../images/aboutMe.jpg");
   height: 250px;
   width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-img :hover {
-  
+  background-size: cover;
 }
 
 /* TABLET STYLES */
 /* applies to screens wider than 499px */
 @media screen and (min-width: 500px) {
+  .image {
+    background-image: url("../images/aboutMeDesktop.jpg");
+    height: 350px;
+    width: 600px;
+  }
+  
+  p {
+    font-size: 23px;
+  }
+
+  .letter {
+    font-size: 40px;
+  }
 }
 
 /* DESKTOP STYLES */
 /* applies to screens wider than 999px */
 @media screen and (min-width: 1000px) {
+  p {
+    font-size: 25px;
+  }
 
+  .letter {
+    font-size: 60px;
+  }
 
 }

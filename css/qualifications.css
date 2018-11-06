@@ -1,4 +1,6 @@
-
+/* MOBILE AND GLOBAL STYLES */
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
 h1 {
   color: white;
   font-family: "SF-Pro-Regular";
@@ -11,20 +13,18 @@ h2{
   text-align: center;
   text-decoration: overline underline;
   color: #00FFFF;
-
 }
 
 h3{
   color: white;
   font-family: "SF-Pro-light";
   text-align: center;
-
 }
 
 ul {
   color: white;
   font-family: "SF-Pro-light";
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .dmu {
@@ -52,4 +52,49 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* TABLET STYLES */
+/* applies to screens wider than 499px */
+ @media screen and (min-width: 500px) {
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+ul {
+  font-size: 24px;
+  padding-left: 50px;
+}
+
+.dmu {
+  background-image: url("../images/dmuSwap.jpg");
+}
+
+.bc1 {
+  background-image: url("../images/bc1Swap.jpg");
+}
+
+.bc2 {
+  background-image: url("../images/bc2Swap.jpg");
+}
+
+}
+
+
+
+/* DESKTOP STYLES */
+/* applies to screens wider than 999px */
+@media screen and (min-width: 1000px) {
+
+
+
 }

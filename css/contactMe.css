@@ -1,4 +1,6 @@
-
+/* MOBILE AND GLOBAL STYLES */
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
 h1 {
   color: white;
   font-family: "SF-Pro-Regular";
@@ -9,7 +11,6 @@ h2{
   color: white;
   font-family: "SF-Pro-medium";
   text-align: center;
-
 }
 
 h3{
@@ -37,5 +38,22 @@ img {
 }
 
 img:hover {
+   position: relative;
+   transition: 0.3s ease;
+}
 
+
+/* TABLET STYLES */
+/* applies to screens wider than 499px */
+@media screen and (min-width: 500px) {
+
+}
+
+/* DESKTOP STYLES */
+/* applies to screens wider than 999px */
+@media screen and (min-width: 1000px) {
+img{
+  display: flex;
+  flex-direction:row;
+}
 }

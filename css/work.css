@@ -60,11 +60,40 @@ ul {
 
 /* TABLET STYLES */
 /* applies to screens wider than 499px */
-@media screen and (min-width: 500px) {
+ @media screen and (min-width: 500px) {
 
+h1 {
+  font-size: 30px;
+}
 
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+ul {
+  font-size: 24px;
+  padding-left: 50px;
+}
+
+.job1 {
+  background-image: url("../images/catGirlSwap.jpg");
+}
+
+.job2 {
+  background-image: url("../images/lmsSwap.jpg");
+}
+
+.job3 {
+  background-image: url("../images/breezeSwap.jpg");
+}
 
 }
+
+
 
 /* DESKTOP STYLES */
 /* applies to screens wider than 999px */

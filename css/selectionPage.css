@@ -6,7 +6,7 @@
 /* GENERAL BUTTON STYLING */
 button,
 button::after {
-	transition: all 0.7s;
+	transition: all 0.5s;
 }
 
 .container a {

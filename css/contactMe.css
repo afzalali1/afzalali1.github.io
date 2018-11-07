@@ -7,23 +7,11 @@ h1 {
   text-align: center;
 }
 
-h2{
+p {
   color: white;
   font-family: "SF-Pro-medium";
-  text-align: center;
-}
-
-h3{
-  color: white;
-  font-family: "SF-Pro-light";
-  text-align: center;
-
-}
-
-ul {
-  color: white;
-  font-family: "SF-Pro-light";
   padding-left: 20px;
+  text-align: center;
 }
 
 img {
@@ -32,28 +20,37 @@ img {
   margin-left:auto;
   margin-right: auto;
   display: flex;
-  flex-direction: column;
   padding-bottom: 5px;
-
 }
 
 img:hover {
-   position: relative;
-   transition: 0.3s ease;
+  position: relative;
+  transition: 0.3s ease;
 }
-
 
 /* TABLET STYLES */
 /* applies to screens wider than 499px */
 @media screen and (min-width: 500px) {
-
+  p {
+    font-size: 25px;
+  }
+  
+  img {
+    display: inline-flex;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
 }
 
 /* DESKTOP STYLES */
 /* applies to screens wider than 999px */
 @media screen and (min-width: 1000px) {
-img{
-  display: flex;
-  flex-direction:row;
-}
+  p {
+    font-size: 28px;
+  }
+
+  img {
+    display: inline-flex;
+    padding-right: 30px;
+  }
 }

@@ -1,3 +1,4 @@
+// Global Javascript star background
 'use strict';
 
 var wH = window.innerHeight;
@@ -12,3 +13,17 @@ var generateStars = function generateStars(n) {
   }
 };
 generateStars(150);
+
+// Global Javascript for back button
+var backButton = document.querySelector('.back-button')
+
+function backAnim(){
+  if (backButton.classList.contains('back')){
+    backButton.classList.remove('back');
+  }
+  else{
+    backButton.classList.add('back');
+    setTimeout(backAnim, 1000);
+  }
+}
+backButton.addEventListener('click', backAnim);
